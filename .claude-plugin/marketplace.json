@@ -1,0 +1,18 @@
+{
+  "name": "sansheng-liubu-marketplace",
+  "owner": {
+    "name": "Caoran1314",
+    "url": "https://github.com/Caoran1314"
+  },
+  "metadata": {
+    "description": "三省六部 Claude Code 插件市场"
+  },
+  "plugins": [
+    {
+      "name": "sansheng-liubu",
+      "source": "./",
+      "description": "三省六部制多智能体任务编排：12 状态状态机、封驳退回、高风险确认、越权矩阵、委派防环与审计。",
+      "version": "0.1.0"
+    }
+  ]
+}
