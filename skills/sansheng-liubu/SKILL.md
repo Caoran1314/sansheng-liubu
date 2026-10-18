@@ -15,6 +15,8 @@ description: 三省六部制多智能体任务编排（Claude Code 原生版）�
 
 ## 快速开始
 
+> **脚本路径**：下面的命令用 `${CLAUDE_PLUGIN_ROOT}`，Claude Code 在插件安装时会替换它。独立技能安装（通过 `npx skills add`）时该变量不会替换，请改用 `node ~/.claude/skills/sansheng-liubu/scripts/edict.mjs`。
+
 ```bash
 # 1. 初始化（幂等）
 node "${CLAUDE_PLUGIN_ROOT}/skills/sansheng-liubu/scripts/edict.mjs" init
@@ -26,7 +28,7 @@ node "${CLAUDE_PLUGIN_ROOT}/skills/sansheng-liubu/scripts/edict.mjs" create \
 # 3. 依次调用子代理：taizi -> zhongshu -> menxia -> shangshu -> 六部
 ```
 
-`${CLAUDE_PLUGIN_ROOT}` 由 Claude Code 在插件内容中替换为插件根目录。若作为独立技能安装（没有该变量），把脚本路径换成 `~/.claude/skills/sansheng-liubu/scripts/edict.mjs`。状态默认存放在 `~/.claude/edict/<项目名-哈希>/`，可用 `EDICT_HOME` 覆盖。
+状态默认存放在 `~/.claude/edict/<项目名-哈希>/`，可用 `EDICT_HOME` 覆盖。
 
 ## 编排步骤
 

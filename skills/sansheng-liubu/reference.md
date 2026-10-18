@@ -1,5 +1,7 @@
 # 三省六部参考
 
+> 脚本路径：插件安装用 `${CLAUDE_PLUGIN_ROOT}/skills/sansheng-liubu/scripts/edict.mjs`；独立技能安装用 `~/.claude/skills/sansheng-liubu/scripts/edict.mjs`。
+
 ## 角色
 
 | ID | 名称 | 职责 |

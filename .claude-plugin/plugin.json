@@ -1,7 +1,7 @@
 {
   "name": "sansheng-liubu",
   "displayName": "三省六部",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "三省六部制多智能体任务编排：12 状态状态机、封驳退回、高风险确认、越权矩阵、委派防环与审计。",
   "author": {
     "name": "Caoran1314",
