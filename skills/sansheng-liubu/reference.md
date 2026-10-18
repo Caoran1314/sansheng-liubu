@@ -102,7 +102,7 @@ node "${CLAUDE_PLUGIN_ROOT}/skills/sansheng-liubu/scripts/edict.mjs" confirm <id
 ## 典型流程示例
 
 ```bash
-E="node "${CLAUDE_PLUGIN_ROOT}/skills/sansheng-liubu/scripts/edict.mjs""
+E='node "${CLAUDE_PLUGIN_ROOT}/skills/sansheng-liubu/scripts/edict.mjs"'
 
 $E create --title "把首页加载时间降到 1 秒以内" --as huangshang
 # 假设返回 JJC-20261018-001
